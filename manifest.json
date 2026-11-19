@@ -1,7 +1,21 @@
 {
-  "files": [
-    "transcripts/session-1.json"
-  ],
-  "agent": "claude",
-  "kit": "gta6-meme-x-01"
+  "format": "agent-fun/transcript-bundle/v1",
+  "created_at": "2026-11-19T21:30:00.000Z",
+  "tool": {
+    "name": "claude",
+    "version": "1.0"
+  },
+  "repo": {
+    "url": "https://github.com/irgore/gta6-meme-amber-alert",
+    "commit": "88d34bea8514c1d02ddf19e98985438c3b93dad2"
+  },
+  "sessions": [
+    {
+      "id": "session-1",
+      "label": "GTA 6 meme generation and posting",
+      "file": "transcripts/session-1.json",
+      "started_at": "2026-11-19T21:30:00.000Z",
+      "finished_at": "2026-11-19T21:35:00.000Z"
+    }
+  ]
 }
